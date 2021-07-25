@@ -170,7 +170,6 @@
   /* Show menu */
   .show-menu{
     bottom: var(--header-height);
-    transition: .3s all ease-in-out;
   }
   
   /* Active menu link */

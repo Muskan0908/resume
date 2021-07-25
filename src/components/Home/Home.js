@@ -89,7 +89,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
     <div className="home">
     <div className="l-header" id="header">
       <nav className="nav bd-container">
-        <a href="/" className="nav__logo">Muskan</a>
+        <a href="#home" className="nav__logo">Muskan</a>
 
         <div className="nav__menu" id="nav-menu">
           <ul className="nav__list">
