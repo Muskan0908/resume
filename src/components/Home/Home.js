@@ -74,13 +74,14 @@ const Home=({
 
     
 
-    const navLink = document.querySelectorAll('.nav__link');
-    
+     
     const linkAction=()=>{
         let navMenu = document.getElementById('nav-menu');
         // When we click on each nav__link, we remove the show-menu class
         navMenu.classList.remove('show-menu');
     }
+let navLink = document.querySelectorAll('.nav__link');
+  
 navLink.forEach(n => n.addEventListener('click', linkAction));
  
 
@@ -99,17 +100,17 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
               </li>
               <li className="nav__item">
                 <a href="#summary" className="nav__link">
-                <i class='bx bx-user nav__icon'></i>Summary
+                <i className='bx bx-user nav__icon'></i>Summary
                 </a>
               </li>
               <li className="nav__item">
                 <a href="#education" className="nav__link">
-                <i class='bx bxs-book-bookmark nav__icon'></i>Education
+                <i className='bx bxs-book-bookmark nav__icon'></i>Education
                 </a>
               </li>
               <li className="nav__item">
                 <a href="#skills" className="nav__link">
-                <i class='bx bx-receipt nav__icon' ></i>Skills
+                <i className='bx bx-receipt nav__icon' ></i>Skills
                 </a>
               </li>
               <li className="nav__item">
@@ -119,32 +120,32 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
               </li>
               <li className="nav__item">
                 <a href="#internships" className="nav__link">
-                <i class='bx bx-bulb nav__icon'></i>Internships
+                <i className='bx bx-bulb nav__icon'></i>Internships
                 </a>
               </li>
               <li className="nav__item">
                 <a href="#projects" className="nav__link">
-                <i class='bx bxs-doughnut-chart nav__icon'></i>Projects
+                <i className='bx bxs-doughnut-chart nav__icon'></i>Projects
                 </a>
               </li>
               <li className="nav__item">
                 <a href="#achievements" className="nav__link">
-                <i class='bx bx-trophy nav__icon'></i>Achievements
+                <i className='bx bx-trophy nav__icon'></i>Achievements
                 </a>
               </li>
               <li className="nav__item">
                 <a href="#curricular" className="nav__link">
-                <i class='bx bx-trim nav__icon' ></i>Extra- Curricular Activities
+                <i className='bx bx-trim nav__icon' ></i>Extra- Curricular Activities
                 </a>
               </li> 
               <li className="nav__item">
                 <a href="#languages" className="nav__link">
-                <i class='bx bx-volume-low nav__icon' ></i>Languages
+                <i className='bx bx-volume-low nav__icon' ></i>Languages
                 </a>
               </li>
               <li className="nav__item">
                 <a href="#interests" className="nav__link">
-                <i class='bx bxs-cube-alt' ></i>Interests
+                <i className='bx bxs-cube-alt' ></i>Interests
                 </a>
               </li>
           </ul>
